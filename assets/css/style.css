@@ -25,9 +25,10 @@ body {
     font-size: calc(2vw + 10px);
 }
 .menu-icon {
-    height: 30px;
+     height: 30px;
     width: 30px;
-    position: fixed;
+    position: fixed; 
+    
     z-index: 2;
     left: 50px;
     top: 30px;
@@ -37,24 +38,28 @@ body {
     height: 2px;
     width: 30px;
     display: block;
-    background-color: #fff;
+    background-color: rgb(6, 6, 6);
     margin-bottom: 4px;
     transition: transform 0.2s ease, background-color 0.5s ease;
+     margin-left: 1800px;
+    
 }
 .menu-icon__line-left {
     width: 15px;
+    
+
 }
 .menu-icon__line-right {
     width: 15px;
     float: right;
+    margin-right: -1800px;
 }
 .nav {
     position: fixed;
     z-index: 1;
 }
 .nav:before, .nav:after {
-    content: "
-   "
+    content: " "
    ;
     position: fixed;
     width: 100vw;
@@ -148,3 +153,4 @@ body.nav-active .nav__list-item:nth-child(3) {
 body.nav-active .nav__list-item:nth-child(4) {
     transition-delay: 0.9s;
 }
+
