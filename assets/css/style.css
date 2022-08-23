@@ -41,7 +41,7 @@ body {
     background-color: rgb(6, 6, 6);
     margin-bottom: 4px;
     transition: transform 0.2s ease, background-color 0.5s ease;
-     margin-left: 1800px;
+     /* margin-left: 1800px; */
     
 }
 .menu-icon__line-left {
@@ -52,7 +52,7 @@ body {
 .menu-icon__line-right {
     width: 15px;
     float: right;
-    margin-right: -1800px;
+    /* margin-right: -1800px; */
 }
 .nav {
     position: fixed;
